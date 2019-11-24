@@ -1,5 +1,6 @@
 package com.athlete;
 
+// Let climber inherit everything that defines an athlete
 public class Climber extends Athlete {
 	private int gripStrength;
 	private String gripStrengthDescription;
