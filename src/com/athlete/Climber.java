@@ -19,8 +19,11 @@ public class Climber extends Athlete {
 		return gripStrengthDescription;
 	}
 	
-	public void moveToCoordinate() {
+	// Climber moves to a coordinate different from its base class.
+	@Override
+	public String moveToCoordinate() {
 	coordinate = "37.990, 89.772";
 	System.out.println(coordinate);
+	return coordinate;
 	}
 }
