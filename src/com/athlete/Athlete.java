@@ -6,6 +6,7 @@ public class Athlete {
 	
 	// parameterized constructor method
 	public Athlete(int gripStrength) {
+		// set the context of gripStrength to the instance of this class
 		this.gripStrength = gripStrength;
 	}
 	
