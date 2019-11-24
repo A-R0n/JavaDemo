@@ -12,8 +12,9 @@ public class Climber extends Athlete {
 		setGripStrength(gripStrength);
 	}
 	
-	public void setGripStrength(int num) {
-		System.out.println("Grip strength is: " + gripStrength);
+	// Method follows Single Responsibility Principle
+	public int setGripStrength(int num) {
+		return num;
 	}
 	
 	//  Demonstrate polymorphism through overloading as method with the same name accepts different parameters and behaves differently
