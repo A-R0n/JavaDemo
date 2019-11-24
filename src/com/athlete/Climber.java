@@ -15,6 +15,7 @@ public class Climber extends Athlete {
 		System.out.println("Grip strength is: " + gripStrength);
 	}
 	
+	//  Demonstrate polymorphism through overloading as method with the same name accepts different parameters and behaves differently
 	public String setGripStrength(String description) {
 		System.out.println("Grip strength is: " + gripStrengthDescription);
 		return gripStrengthDescription;
