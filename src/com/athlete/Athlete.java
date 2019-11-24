@@ -10,7 +10,8 @@ public class Athlete {
 		this.gripStrength = gripStrength;
 	}
 	
-	public void moveToCoordinate(){
-		System.out.println("athlete");
+	// Method that returns a String of the geo coordinates the Athlete moves to when climbing
+	public String moveToCoordinate(){
+		return coordinate;
 	}
 }
