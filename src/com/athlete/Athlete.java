@@ -1,6 +1,6 @@
 package com.athlete;
 
-public class Athlete {
+public abstract class Athlete {
 	protected int gripStrength = 5;
 	protected String coordinate = "37.989, 89.771";
 	
@@ -10,8 +10,6 @@ public class Athlete {
 		this.gripStrength = gripStrength;
 	}
 	
-	// Method that returns a String of the geo coordinates the Athlete moves to when climbing
-	public String moveToCoordinate(){
-		return coordinate;
-	}
+	// Simplify design by allowing more possible implementations of moveToCoordinate through Abstraction
+	abstract String moveToCoordinate();
 }
