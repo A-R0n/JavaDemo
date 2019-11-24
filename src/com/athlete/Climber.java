@@ -4,7 +4,6 @@ package com.athlete;
 public class Climber extends Athlete {
 	private int gripStrength;
 	private String gripStrengthDescription;
-	private String coordinate;
 	public Climber(int gripStrength, double routesClimbed) {
 		super(gripStrength);
 		this.gripStrength = gripStrength;
