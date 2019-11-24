@@ -2,6 +2,7 @@ package com.athlete;
 
 // Let climber inherit everything that defines an athlete
 public class Climber extends Athlete {
+	// Encapsulate private information into public methods
 	private int gripStrength;
 	private String gripStrengthDescription;
 	public Climber(int gripStrength, double routesClimbed) {
