@@ -5,6 +5,7 @@ public class Climber extends Athlete {
 	private int gripStrength;
 	private String gripStrengthDescription;
 	public Climber(int gripStrength, double routesClimbed) {
+		// Get access to athlete methods with super keyword
 		super(gripStrength);
 		this.gripStrength = gripStrength;
 		setGripStrength(gripStrength);
