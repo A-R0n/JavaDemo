@@ -9,6 +9,8 @@ public abstract class Athlete {
 		// set the context of gripStrength to the instance of this class
 		this.gripStrength = gripStrength;
 	}
+
+	abstract String setGripStrength(String Description);
 	
 	// Simplify design by allowing more possible implementations of moveToCoordinate through Abstraction
 	abstract String moveToCoordinate();
