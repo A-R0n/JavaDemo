@@ -1,5 +1,8 @@
 package com.athlete;
 
+import java.util.Set;
+import java.util.HashSet;
+
 import java.util.ArrayList;
 
 // Let climber inherit everything that defines an athlete
@@ -15,7 +18,7 @@ public class Climber extends Athlete {
 		setGripStrength(gripStrength);
 	}
 public void climberList() {
-	ArrayList<String> climbers = new ArrayList<String>();
+	Set<String> climbers = new HashSet<String>();
 	climbers.add("Sasha Digulian");
 	climbers.add("Chris Sharma");
 	climbers.add("Alex Megos");
