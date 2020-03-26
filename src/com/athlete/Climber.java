@@ -40,6 +40,19 @@ public void climberCheck(ArrayList<String> climbers) {
 		}
 }
 
+public void assignScores() {
+		Map<String, Integer> scoreboard = new HashMap<String, Integer>();
+
+		scoreboard.put("Natalia", 94);
+		scoreboard.put("Tasia", 70);
+		scoreboard.put("Alex", 86);
+		scoreboard.put("Margo", 100);
+
+		for(Map.Entry m:scoreboard.entrySet()) {
+			System.out.println(m.getKey()+" "+ m.getValue());
+		}
+}
+
 	// Method follows Single Responsibility Principle
 	public int setGripStrength(int num) {
 		return num;
