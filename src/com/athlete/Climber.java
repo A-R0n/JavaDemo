@@ -21,8 +21,22 @@ public void climberList() {
 	climbers.add("Alex Megos");
 	climbers.add("Alex Puccio");
 	System.out.println(climbers);
-
+	climberCheck(climbers);
 }
+
+public void climberCheck(ArrayList<String> climbers) {
+		this.climbers = climbers;
+
+		boolean containsSasha = climbers.contains("Sasha Digulian");
+		for(var i = 0; i < climbers.length(); i++) {
+			if(i.equals("1"))
+				System.out.println("Sasha");
+			else {
+				System.out.println("Not Sasha");
+			}
+		}
+}
+
 	// Method follows Single Responsibility Principle
 	public int setGripStrength(int num) {
 		return num;
